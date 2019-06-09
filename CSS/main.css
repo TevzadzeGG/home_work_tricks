@@ -1,0 +1,41 @@
+.octagon {
+	font-size: 5px;
+	width: 100em;
+	height: 100em;
+	background: #ccc;
+	position: relative;
+}
+ 
+.octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;    
+	border-bottom: 30em solid #ccc;
+	border-left: 30em solid #fff;
+	border-right: 30em solid #fff;
+	width: 40em;
+	height: 0;
+}
+
+.circle {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	background: #fff;
+	border-radius: 50%;
+	left: 85px;
+	top: 85px;
+}
+ 
+.octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;    
+	border-top: 30em solid #ccc;
+	border-left: 30em solid #fff;
+	border-right: 30em solid #fff;
+	width: 40em;
+	height: 0;
+}
