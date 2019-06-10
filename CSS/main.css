@@ -1,41 +1,58 @@
-.octagon {
-	font-size: 5px;
-	width: 100em;
-	height: 100em;
-	background: #ccc;
+.field {
+	width: 400px;
+	height: 400px;
+	margin: 100px auto;
+	border: 1px solid black;
 	position: relative;
 }
- 
-.octagon:before {
-	content: "";
+
+.box1 {
+	width: 140px;
+	height: 350px;
+	background: #ccc;
 	position: absolute;
-	top: 0;
-	left: 0;    
-	border-bottom: 30em solid #ccc;
-	border-left: 30em solid #fff;
-	border-right: 30em solid #fff;
-	width: 40em;
-	height: 0;
+	bottom: 30px;
+	left: 125px;
 }
 
-.circle {
-	position: absolute;
-	width: 350px;
+.box2 {
+	width: 140px;
 	height: 350px;
-	background: #fff;
-	border-radius: 50%;
-	left: 85px;
-	top: 85px;
-}
- 
-.octagon:after {
-	content: "";
+	background: #ccc;
 	position: absolute;
-	bottom: 0;
-	left: 0;    
-	border-top: 30em solid #ccc;
-	border-left: 30em solid #fff;
-	border-right: 30em solid #fff;
-	width: 40em;
-	height: 0;
+	bottom: 30px;
+	left: 105px;
+	transform: translate(30px) rotate(45deg);
+}
+
+.box3 {
+	width: 140px;
+	height: 350px;
+	background: #ccc;
+	position: absolute;
+	bottom: 30px;
+	left: 105px;
+	transform: translate(30px) rotate(92deg);
+}
+
+.box4 {
+	width: 140px;
+	height: 350px;
+	background: #ccc;
+	position: absolute;
+	bottom: 30px;
+	left: 105px;
+	transform: translate(30px) rotate(138deg);
+}
+
+.cirkle {
+	background: #fff;
+	z-index: 2;
+	width: 200px;
+	height: 200px;
+	border: 0px solid red;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
 }
