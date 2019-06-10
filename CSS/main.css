@@ -6,53 +6,62 @@
 	position: relative;
 }
 
-.box1 {
-	width: 140px;
-	height: 350px;
-	background: #ccc;
+.box4 {
+	box-sizing: border-box;
+	width: 105px;
+	height: 105px;
+	border-radius: 100%;
+	border: 1px solid red;
+	overflow: visible;
 	position: absolute;
-	bottom: 30px;
-	left: 125px;
+	left: 152px;
+	top: 99px;
+}
+
+.box1 {
+	box-sizing: border-box;
+	width: 210px;
+	height: 100px;
+	border: 2px solid red;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	transform: rotate(45deg);
+
 }
 
 .box2 {
-	width: 140px;
-	height: 350px;
-	background: #ccc;
+	box-sizing: border-box;
+	width: 210px;
+	height: 100px;
+	border: 2px solid red;
 	position: absolute;
-	bottom: 30px;
-	left: 105px;
-	transform: translate(30px) rotate(45deg);
+	left: 100px;
+	top: 100px;
+	transform: rotate(90deg);
+
 }
 
 .box3 {
-	width: 140px;
-	height: 350px;
-	background: #ccc;
+	box-sizing: border-box;
+	width: 210px;
+	height: 100px;
+	border: 2px solid red;
 	position: absolute;
-	bottom: 30px;
-	left: 105px;
-	transform: translate(30px) rotate(92deg);
-}
-
-.box4 {
-	width: 140px;
-	height: 350px;
-	background: #ccc;
-	position: absolute;
-	bottom: 30px;
-	left: 105px;
-	transform: translate(30px) rotate(138deg);
-}
-
-.cirkle {
-	background: #fff;
-	z-index: 2;
-	width: 200px;
-	height: 200px;
-	border: 0px solid red;
-	border-radius: 100%;
-	position: absolute;
-	bottom: 100px;
 	left: 100px;
+	top: 100px;
+	transform: rotate(135deg);
+
+}
+
+.box5 {
+	box-sizing: border-box;
+	width: 210px;
+	height: 100px;
+	border: 2px solid red;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	transform: rotate(0deg);
+
 }
