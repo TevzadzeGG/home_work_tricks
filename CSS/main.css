@@ -1,4 +1,25 @@
 
+.cirkle {
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 100%;
+	border: solid 10px silver;
+	position: absolute;
+	left: 19px;
+	top: 88px;
+}
+
+.box {
+	display: inline-block;
+	width: 40px;
+	height: 19px;
+	background: silver;
+	position: absolute;
+	left: 44px;
+	top: 93px;
+}
+
 .hidden-screw {
     display: inline-block;
     width: 32px;
@@ -34,8 +55,6 @@
 }
 
 .triangle-right {
-	width: 100;
-	height: 100;
 	border-top: 16px solid transparent;
 	border-left: 15px solid silver;
 	border-bottom: -10px solid transparent;
@@ -45,8 +64,6 @@
 }
 
 .triangle-right2 {
-	width: 100;
-	height: 100;
 	border-top: -10px solid transparent;
 	border-left: 15px solid silver;
 	border-bottom: 16px solid transparent;
