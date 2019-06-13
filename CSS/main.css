@@ -11,7 +11,7 @@
 
 .box2 {
 	display: block;
-	width: 60px;
+	width: 73px;
 	height: 20px;
 	background: silver;
 	left: 40px;
@@ -31,15 +31,49 @@
 }
 
 .moon {
-	display: block;
-	width: 30px;
-	height: 30px;
-	margin: -10px 8px 8px 0;
-	border-radius: 50%;
-	box-shadow: 2px 2px 0 0 red;
+	display:inline-block;
+	width: 10px;
+	height: 20px;
+	border-radius: 0 20px 0 0;
 	position: relative;
-	left: 66px;
-	top: -8px;
-	transform: rotate(310deg);
+	left: 50px;
+	top: -20px;
+	border-right: 2px solid #686868;
+
+}
+
+.moon1 {
+	display:inline-block;
+	width: 10px;
+	height: 20px;
+	border-radius: 0 20px 0 0;
+	position: relative;
+	left: 50px;
+	top: -20px;
+	border-right: 2px solid #686868;
+
+}
+
+.moon2 {
+	display:inline-block;
+	width: 10px;
+	height: 20px;
+	border-radius: 0 20px 0 0;
+	position: relative;
+	left: 50px;
+	top: -20px;
+	border-right: 2px solid #686868;
+
+}
+
+.moon3 {
+	display:inline-block;
+	width: 10px;
+	height: 20px;
+	border-radius: 0 20px 0 0;
+	position: relative;
+	left: 50px;
+	top: -20px;
+	border-right: 2px solid #686868;
 
 }
