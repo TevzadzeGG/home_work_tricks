@@ -50,24 +50,15 @@ table {
 nav {
 	width: 960px;
 	margin: 0 auto;
-}
-
-nav:before {
-	content:'';
-	display: block;
-	height: 50px;
-	width: 100%;
-	background: black;
-	position: absolute;
-	left: 0;
-	z-index: -1;
+	clear: left;
 }
 
 li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	height: 50px;
+	height: 100px;
+	background: black;
 }
 
 li {
@@ -78,9 +69,10 @@ a {
 	color: #fff;
 	display: block;
 	height: 50px;
-	padding: 0 30px;
+	padding: 25px 30px;
 	text-transform: uppercase;
 	text-decoration: none;
+	border-radius: 50% 50% 0 0;
 	line-height: 50px;
 	list-style: none;
 }
@@ -88,4 +80,5 @@ a {
 a:hover {
 	background: red;
 	transition: .7s;
+
 }
